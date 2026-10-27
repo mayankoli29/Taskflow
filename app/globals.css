@@ -216,3 +216,26 @@ button {
     flex-direction: column;
   }
 }
+
+.search {
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  background: white;
+}
+
+.empty {
+  color: #667085;
+  font-size: 13px;
+  padding: 12px 0;
+}
+
+.task-form select {
+  min-width: 110px;
+}
+
+@media (max-width: 560px) {
+  .task-form select {
+    width: 100%;
+  }
+}
